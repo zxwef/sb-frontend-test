@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Тестовое задание - форма</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="form">
+
+      <div class="form__field">
+        <input type="text" name="name" class="form__autosuggestion" value="" placeholder="Введите что нибудь">
+        <div class="form__autosuggest-list"></div>
+        <span class="form__help help"></span>
+      </div>
+
+      <div class="form__field">
+        <input type="text" name="phone1" class="form__phone" value="" placeholder="+7-___-___-__-__">
+        <span class="form__help help"></span>
+      </div>
+
+      <button type="button" id="save" class="form__button">Сохранить</button>
+      <button type="button" id="clear" class="form__button">Очистить</button>
+
+    </div>
+  </div>
+
+  <script src="js/phone-component.js"></script>
+  <script src="js/autosuggestion-component.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

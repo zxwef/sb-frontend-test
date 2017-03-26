@@ -1,0 +1,45 @@
+
+.form {
+  width: 250px;
+  margin: 100px auto 0;
+}
+
+.form__field {
+  position: relative;
+  float: left;
+  width: 200px;
+  margin: 0 0 25px;
+  z-index: 0;
+}
+
+.form__autosuggestion {
+  float: left;
+  width: 100%
+}
+
+.form__phone {
+  float: left;
+  width: 100%;
+}
+
+.form__autosuggest-list {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 2px #ccc;
+  background: #fff;
+}
+
+.form__suggest-span {
+  float: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+.form__help {
+  float: left;
+  clear: both;
+  font-size: 10px;
+  color: #dd0000;
+}
